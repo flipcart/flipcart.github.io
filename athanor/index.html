@@ -20,9 +20,51 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
+		
+		<!-- Video Player Stuff-->
+		<link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+		<script src="http://vjs.zencdn.net/4.11/video.js"></script>
+		<style type="text/css">
+			.vjs-default-skin { color: #dc1919; }
+			.vjs-default-skin .vjs-play-progress,
+			.vjs-default-skin .vjs-volume-level { background-color: #e8afe8 }
+			.vjs-default-skin .vjs-control-bar { font-size: 88% }
+		</style>
+		
+		
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body class="no-sidebar">
+	
+		<!-- Header -->
+			<div id="header-wrapper">
+				<div id="header" class="container">	
+					<!-- Logo -->
+						<h1 id="logo"><a href="#">Athanor - Symbiotic</a></h1>
+					<!-- Nav -->
+				</div>
+				<!-- Hero -->				
+			</div>
+	
+						
+		<div class="wrapper">
+				<div class="container" id="main">
+					<header>
+						<h2>Team-Aryabhata</h2>
+						<p>Play this Video to see our Work.</p>
+					</header>
+					
+					<!-- Content -->
+						<article id="content">
+								<video controls width="1200" height="600" >
+								<source src="videos/athanor_start.mp4" type='video/mp4'>
+								 Your browser does not support HTML5 video.
+								</video>
+						</article>
+
+				</div>
+		</div>
+		
 		<!-- Promo -->
 			<div id="promo-wrapper">
 				<section id="promo">
