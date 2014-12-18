@@ -29,6 +29,8 @@
 			.vjs-default-skin .vjs-play-progress,
 			.vjs-default-skin .vjs-volume-level { background-color: #e8afe8 }
 			.vjs-default-skin .vjs-control-bar { font-size: 88% }
+			.video-js {padding-top: 56.25%}
+			.vjs-fullscreen {padding-top: 0px}
 		</style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
@@ -43,23 +45,27 @@
 				</div>
 				<!-- Hero -->				
 				<section id="hero" class="container">
-						<article id="content">	
-								<video id="MY_VIDEO_1" class="video-js vjs-default-skin vjs-big-play-centered" controls
-									preload="auto" width="1200" height="600" poster=""
+					<div class="wrapper">
+						<div class="videocontent">
+							
+								<video id="MY_VIDEO_1" class="video-js vjs-default-skin vjs-big-play-centered " controls
+									preload="auto" width="auto" height="auto" poster="images/android.jpg"
 									data-setup="{}">
 										<source src="videos/athanor_start.mp4" type='video/mp4'>
 									<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 								</video>
-						</article>
-						
-						<article id="content">	
+						 </div>
+					</div>
+						<div class="wrapper">
+							<div class="videocontent">
 								<video id="MY_VIDEO_1" class="video-js vjs-default-skin vjs-big-play-centered" controls
-									preload="auto" width="1200" height="600" poster=""
+									preload="auto" width="auto" height="auto" poster="images/electonics.jpg"
 									data-setup="{}">
 										<source src="videos/athanor_ends.mp4" type='video/mp4'>
 									<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-								</video>
-						</article>
+								</video>		
+						 </div>
+					</div>
 					
 				</section>
 	
